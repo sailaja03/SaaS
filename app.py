@@ -85,3 +85,18 @@ with main:
 
     with st.expander("A quick look at the results"):
         st.image("./images/accuracies.png")
+        st.markdown("""
+            From the above graph we can observe that accuracies remained at similar levels for
+
+            the popular parameters but darker males, who were victims of bias in previous cases
+
+            are now better represented and better identified
+        """)
+    
+    st.markdown("""
+        This approach can be used with several other standard classifiers in several other scenarios
+
+        to mitigate bias in a similar way as now. This effort of ours, we hope, will
+        prove useful in making ML models more inclusive towards otherwise ignored sections of society
+        
+    """)
